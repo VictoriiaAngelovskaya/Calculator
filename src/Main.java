@@ -7,12 +7,12 @@ public class Main {
 
         Scanner scanner = new Scanner(in);
         while (true) {
-            out.println("Выберите пункт");
-            out.println("1.Сложение");
-            out.println("2.Вычитание");
-            out.println("3.Умножение");
-            out.println("4.Деление");
-            out.println("5.Выйти");
+            System.out.println("Выберите пункт");
+           System. out.println("1.Сложение");
+            System.out.println("2.Вычитание");
+            System.out.println("3.Умножение");
+            System.out.println("4.Деление");
+            System.out.println("5.Выйти");
             int person = scanner.nextInt();
             int result;
             if (person == 5) {
